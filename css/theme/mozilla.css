@@ -60,9 +60,17 @@ body {
     padding-bottom: 0.4em;
 }
 
+.reveal ul {
+    margin-left: 1em;
+}
+
 .reveal li {
     padding-bottom: 0.35em;
     color: #333;
+}
+
+.reveal .centered_text {
+    text-align: center;
 }
 
 .reveal .credits {
@@ -70,11 +78,23 @@ body {
 }
 
 .reveal blockquote {
-	background: #fff;
+    background: #d7d3c8;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 	font-family: 'FiraSans', sans-serif;
-	font-style: normal;
-	font-size: 26px;
+	font-style: italic;
+	font-size: 0.9em;
+    line-height: 1.6em;
 	font-weight: 400;
+    color: #444;
+    padding: 1em;
+    margin: 0.5em 0;
+}
+
+.reveal .quote_author {
+    display: block;
+    text-align: right;
+    margin-top: 1em;
 }
 
 hr {
@@ -101,8 +121,12 @@ hr {
 }
 
 .reveal h1 {
-    font-size: 150%;
+    font-size: 180%;
     margin-top: 0.8em;
+}
+
+.reveal h2 {
+    font-size: 125%;
 }
 
 /*********************************************
